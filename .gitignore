@@ -3,8 +3,9 @@
 *.docx
 *.ini
 *.bat
+*.png
 */Programa
-*/Apostilas
-*/Mentoria
-*/Inglês
-*/modelo
+/Apostilas
+/Mentoria
+/Inglês
+/modelo
