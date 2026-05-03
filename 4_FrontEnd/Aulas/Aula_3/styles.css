@@ -1,0 +1,64 @@
+/*CSS - Cascading Style Sheets*/
+
+*{ /*Configuração global da página. É tipo um reset.*/
+    margin: 0; /*Espaçamento externo*/
+    padding: 0; /*Espaçamento interno*/
+    box-sizing: border-box; /*Limita o conteúdo dentro do espaço da tela.*/
+    
+}
+
+main{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 30%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+input[type="text"], [type="email"]{
+    height: 1.8rem;
+    font-size: 16px;
+}
+
+label{
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.field{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    height: 2rem;
+    background-color: brown;
+    color: chartreuse;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: rgb(165, 114, 42);
+}

@@ -1,0 +1,28 @@
+import java.util.Scanner;
+import java.io.IOException; //Biblioteca usada na função limpar!
+
+public class Main {
+
+    public static void main(String[] args) {
+        
+    }
+
+    //------------Métodos Auxiliares------------
+    public static void limpar() throws IOException, InterruptedException {
+        final String os = System.getProperty("os.name"); //Variável que armazena o OS que está em uso.
+        if(os == "Windows"){
+            new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
+        }else{
+            new ProcessBuilder("clear").inheritIO().start().waitFor();
+        }
+    }
+    //------------Métodos Auxiliares------------
+}
+
+/*AJUDA
+%s	String	
+%d	Integer (byte, short, int, long) 
+%f	Floating-point (float, double)
+%b	Boolean
+%c	Character
+*/

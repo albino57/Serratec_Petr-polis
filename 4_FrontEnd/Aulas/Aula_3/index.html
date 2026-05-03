@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <main>
+        <form action="">
+
+            <div class="field">
+                <label for="nome">Nome</label>
+                <input type="text" placeholder="Digite seu nome" id="nome" required>
+            </div>
+
+            <div class="field">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Digite seu email" id="nome" required>
+            </div>
+
+            <div class="field">
+                <label for="genero">Gênero</label>
+            </div>
+
+            <div class="options">
+                <label>
+                    <input type="radio" value="feminino">Feminino
+                </label>
+                <label>
+                    <input type="radio" value="masculino">Masculino
+                </label>
+                <label>
+                    <input type="radio" value="outro">Outro
+                </label>
+            </div>
+
+            <div class="field">
+                <p>Interesses</p>
+                <div class="options">
+                    <label>
+                        <input type="checkbox" value="html"> HTML
+                    </label>
+                    <label>
+                        <input type="checkbox" value="css"> CSS
+                    </label>
+                    <label>
+                        <input type="checkbox" value="javascript"> JavaScript
+                    </label>
+                    <label>
+                        <input type="checkbox" value="java"> Java
+                    </label>
+                    <label>
+                        <input type="checkbox" value="c#"> C#
+                    </label>
+                </div>
+            </div>
+
+            <div class="field">
+                <label>Escreva um pouco sobre você</label>
+                <textarea placeholder="Digite aqui..." rows="5"></textarea>
+            </div>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+    </main>
+    
+</body>
+</html>

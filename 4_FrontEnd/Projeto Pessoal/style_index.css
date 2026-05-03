@@ -1,0 +1,74 @@
+/*Cascading Style Sheets*/
+
+*{ /*Configuração global da página. É tipo um reset.*/
+    margin: 0; /*Espaçamento externo*/
+    padding: 0; /*Espaçamento interno*/
+    box-sizing: border-box; /*Limita o conteúdo dentro do espaço da tela.*/
+}
+
+/*Aqui dá altura real para o html e body*/
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;  /*Direciona o flex em coluna*/
+    justify-content: center; /*Mudam alinhamento*/
+    align-items: center;     /*Mudam alinhamento*/
+}
+
+.image{
+    width: 2rem;
+    height: 2.5rem;
+}
+
+h1{
+    color: yellow;    
+}
+
+form{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 16px;
+    
+}
+
+.btn button{
+    min-width: 200px;
+}
+
+
+.divEmail, .divPassword{
+    
+}
+
+/*---Hidden---*/
+.sr-only {
+    position: absolute; /**/
+    width: 1px;         /**/
+    height: 1px;        /**/
+    overflow: hidden;   /**/
+    white-space: nowrap;/**/
+    clip: rect(0 0 0 0);/**/
+}
+
+@media(min-width: 768px){
+
+}
