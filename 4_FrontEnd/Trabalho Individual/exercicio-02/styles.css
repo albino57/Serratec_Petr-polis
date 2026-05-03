@@ -26,7 +26,7 @@ main{
 
 section{
     background-color: darkseagreen;
-    width: 30%;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,6 +36,7 @@ section{
 
 h1{
     color: blue;
+    margin: 2rem;
 }
 
 h2{
@@ -44,8 +45,10 @@ h2{
 }
 
 h3{
+    text-align: center;
+    margin: 0.3rem;
     font-style: italic;
-    color: crimson;
+    color: blue;
 }
 
 div{
@@ -55,6 +58,7 @@ div{
 .img{
     width: 15rem;
     height: 15rem;
+    border-radius: 1rem;
 }
 
 p{
