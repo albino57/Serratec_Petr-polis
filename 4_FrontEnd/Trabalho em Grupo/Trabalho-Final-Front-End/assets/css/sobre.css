@@ -1,0 +1,107 @@
+@import url(reset.css);
+
+body {
+  background-color: rgb(19, 18, 88);
+  color: white;
+}
+
+nav {
+  height: 5rem;
+  width: 100%;
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 5rem;
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.content section {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.text {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.conheca-a-equipe {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+
+.card {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03) translateY(-5px);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+  background-color: black;
+  border: black;
+}
+
+.btn:hover {
+  background-color: #0f0cca;
+  border: black;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.disabled {
+  background-color: gray !important;
+  &:hover {
+    background-color: gray !important;
+  }
+}
+
+
+footer {
+  background-color: black;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  position: fixed;
+}
+
+footer p {
+  color: white;
+  margin: 0;
+}

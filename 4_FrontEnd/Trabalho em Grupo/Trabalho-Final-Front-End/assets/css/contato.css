@@ -1,0 +1,127 @@
+@import url(reset.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(19, 18, 88);
+  color: white;
+}
+/* MENU DE CIMA */
+header {
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rodapecima {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+.rodapecima a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.rodapecima a:hover {
+  color: gray;
+}
+
+/* PÁGINA */
+
+.pagina-contato {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+.titulo-pagina {
+  font-size: 48px;
+  text-align: center;
+  color: aliceblue;
+  margin-bottom: 40px;
+}
+
+/* CAIXAS */
+
+.container-contato {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.caixa-info,
+.caixa-formulario {
+  background-color: white;
+  color: black;
+  border-radius: 12px;
+  width: 450px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.caixa-info h2,
+.caixa-formulario h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.caixa-info p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+/* FORMULÁRIO */
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+}
+
+.formulario textarea {
+  height: 120px;
+  resize: none;
+}
+.formulario button {
+  background-color: #111;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.formulario button:hover {
+  background-color: gray;
+}
+/* RODAPÉ */
+
+footer {
+  background-color: black;
+  width: 100%;
+  height: 5rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
